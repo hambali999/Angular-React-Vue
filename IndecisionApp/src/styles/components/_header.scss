@@ -1,0 +1,22 @@
+.Header{
+  background-color: $off-Black;
+  color: #FFFFFF;
+  margin-bottom: $s-size;
+  padding: $xl-size;
+}
+
+.Header__title{
+  font-size: $l-size;
+}
+
+.Header__subTitle{
+  color: $off-White;
+  font-size: $m-size;
+  font-weight: 500;
+}
+
+@media (min-width: $desktop-breakPoint){
+  .Header{
+  margin-bottom: $m-size;
+}
+}
