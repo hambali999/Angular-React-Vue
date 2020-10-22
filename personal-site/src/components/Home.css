@@ -1,0 +1,65 @@
+.overview {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.name {
+	font-size: 5rem;
+}
+
+.about {
+	margin-top: 0.5rem;
+}
+
+.title {
+	font-size: 3.5rem;
+}
+
+.tagline {
+	margin-top: 0.5rem;
+	font-size: 1.5rem;
+	font-family: "Orbitron", sans-serif;
+}
+
+.intro {
+	margin-top: 0.5rem;
+	font-size: 1.5rem;
+	font-family: "Exo", sans-serif;
+}
+
+.cta {
+	margin-top: 3rem;
+}
+
+.cta > a {
+	padding: 0.7rem 1rem;
+	margin: 0 1rem;
+}
+
+.cv {
+	background-color: #000000;
+	color: #ecf0f1;
+}
+
+.cv:hover {
+	background-color: #2d3436;
+	border: 1px solid #ecf0f1;
+	transition: all 0.4s ease-in;
+}
+
+.email {
+	background-color: #000000;
+	color: #ecf0f1;
+}
+
+.email:hover {
+	background-color: #2d3436;
+	border: 1px solid #ecf0f1;
+	transition: all 0.3s ease-in;
+}

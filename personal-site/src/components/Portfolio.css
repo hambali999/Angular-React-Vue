@@ -1,0 +1,94 @@
+.project {
+	margin-top: 1rem;
+}
+
+.project > a {
+	text-decoration: none;
+}
+
+.project__card {
+	color: #ffffff;
+	border-radius: 1rem;
+	padding: 0.5rem;
+	background-color: #25282c;
+	box-shadow: 0 32px 32px -8px rgba(0, 0, 0, 0.4);
+}
+
+.project__cardHeader {
+	margin-top: 0.5rem;
+	padding: 0 1rem;
+}
+
+.project__cardHeader > h2 {
+	margin-bottom: 0.2rem;
+}
+
+.project__cardFooter > p {
+	line-height: 3.6;
+}
+
+.project__cardHeader .content {
+	max-height: 120px;
+	-webkit-line-clamp: 4;
+}
+
+.project__cardHeader .date {
+	color: #686e78;
+	margin-top: 0.6rem;
+}
+
+.project__cardBody {
+	margin: 1rem 0;
+}
+
+.project__cardBody > img {
+	width: 100%;
+	border-radius: 1rem;
+	height: 150px;
+}
+
+.project__cardFooter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+
+.MuiSvgIcon-root {
+	color: #a9abb3;
+}
+
+@media (max-width: 1000px) {
+	.projects {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.projects {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1rem;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 1000px) {
+	.projects {
+		grid-template-columns: repeat(3, 1fr);
+		padding: 0 1rem;
+	}
+}
+
+@media (max-width: 800px) {
+	.projects {
+		grid-template-columns: repeat(2, 1fr);
+		padding: 0 2rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.projects {
+		grid-template-columns: 1fr;
+		padding: 0 3rem;
+	}
+}

@@ -1,0 +1,26 @@
+.blog-post {
+	padding: 0 2rem;
+	margin-bottom: 2rem;
+	color: #000000;
+}
+
+.post-title {
+	margin-bottom: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+span {
+	font-size: small;
+}
+
+.blog-post > img {
+	width: 100%;
+	margin-bottom: 0.5rem;
+}
+
+.blog-post p {
+	line-height: 1.4;
+	font-weight: bold;
+}
