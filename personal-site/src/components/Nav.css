@@ -1,0 +1,58 @@
+.nav {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	margin: 1rem 0;
+}
+
+.nav a {
+	margin-top: 0.5rem;
+	color: #ffffff;
+	font-family: "Exo", sans-serif;
+	font-weight: bold;
+}
+
+.nav a:hover {
+	color: #07000c;
+	transition: all 0.3s ease-in-out;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu li:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.left-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-menu a {
+	font-size: 1.5rem;
+}
+
+.image {
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+}
+
+.menu .image > img {
+	margin-top: 0.5rem;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+}

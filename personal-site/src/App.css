@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #2c3a47;
+	font-family: "Philosopher", sans-serif;
+	color: #07000c;
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+.container {
+	width: 96vw;
+	max-width: 1100px;
+	margin: auto;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-family: "Raleway", sans-serif;
+}
