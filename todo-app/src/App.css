@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,300&display=swap");
+.App {
+  text-align: center;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(120deg, #262626 0%, #4d4d4d 100%);
+  color: white;
+  min-height: 100vh;
+  font-family: 'Ubuntu',sans-serif;
+}
+
+header{
+  margin-top:5rem;
+}
+
+form{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+}
+form input,form select{
+  padding: 0.4rem;
+  font-size: 1rem;
+
+}
+
+
+.todo-container{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.todo{
+  width: 100%;
+  border-bottom:1px solid #595959;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding:1rem;
+}
+
+.completed{
+  text-decoration: line-through;
+  opacity:0.5;
+}
+.check-green{
+  color: green;
+}
+.check-white{
+  color:white;
+}
+ul{
+  list-style-type: none;
+}
+
+.todo{
+  display:flex;
+  margin:0.5rem;
+}
